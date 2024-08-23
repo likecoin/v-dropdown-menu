@@ -41,7 +41,7 @@
     "meta",
     "CHANGELOG.md"
   ],
-  "sideEffects": false,
+  "sideEffects": ["*.css"],
   "scripts": {
     "build:vue3": "cross-env NODE_ENV=production rollup --config build/rollup.config.vue3.js",
     "build:umd:vue3": "cross-env NODE_ENV=production rollup --config build/rollup.config.vue3.js --format umd",
